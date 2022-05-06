@@ -1,0 +1,17 @@
+.pagina_de_amvs{
+    width: 20%;
+    margin-bottom: 10px;
+}
+.pagina_de_amvs{
+    border: 3px solid red;
+}
+.pagina_de_amvs:hover{
+    border: 3px solid white;
+    transition: .1s;
+}
+.telas{
+    margin-left: 5px;
+    margin-top: 20px;
+    font-family: 'Verdana';
+    font-size: 12px;
+}
