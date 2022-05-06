@@ -1,0 +1,29 @@
+/*Definições de estilo e responsividade do reprodutor*/
+.reprodutor{
+   display: block;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   border-color: red;
+}
+
+@media screen and (max-width: 700px){
+   .reprodutor{
+       width: 540px;
+       height: 360px;
+   }
+}
+
+@media screen and (max-width: 500px){
+    .reprodutor{
+        width: 480px;
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .reprodutor{
+        width: 320px;
+        height: 240px;
+    }
+}
